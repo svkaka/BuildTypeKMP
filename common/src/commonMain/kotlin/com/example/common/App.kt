@@ -15,7 +15,7 @@ internal fun App() {
             modifier = Modifier.fillMaxSize(),
             contentAlignment = Alignment.Center
         ) {
-            Text(getPlatformName())
+            Text(getPlatformName() + getBuildType())
         }
     }
 }
